@@ -3,20 +3,26 @@
 ## First, build the Docker images:
 
 ```sh
-docker-compose build
+make build
 ```
 
 ## Create and setup the database:
 ```sh
-docker-compose run web rails db:create
-docker-compose run web rails db:migrate
-docker-compose run web rails db:seed
+docker compose run web rails db:create
+docker compose run web rails db:migrate
+docker compose run web rails db:seed
 ```
 
 ## Start the application:
 
 ```sh
-docker-compose up
+make up
+```
+
+## Stop the application:
+
+```sh
+make down
 ```
 
 ## To run the toll rate parser manually:
