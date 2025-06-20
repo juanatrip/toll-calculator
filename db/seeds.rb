@@ -765,4 +765,5 @@ end
 
 create_other_vehicle_classes(nlex, nlex_rates)
 create_other_vehicle_classes(sctex, sctex_rates)
+create_other_vehicle_classes(tplex, tplex_rates)
 create_other_vehicle_classes(cavitex, cavitex_rates)
