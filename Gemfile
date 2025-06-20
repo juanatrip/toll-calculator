@@ -59,7 +59,7 @@ end
 
 gem 'whenever', require: false
 gem 'nokogiri'
-gem "byebug", "~> 11.1"
+gem "byebug", "~> 12.0"
 
 group :development, :test do
   gem 'rspec-rails'
