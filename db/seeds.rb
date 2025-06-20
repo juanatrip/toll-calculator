@@ -669,7 +669,6 @@ tplex_rates = [
 skyway_stage_3 = Expressway.find_by!(name: 'SKYWAY STAGE 3')
 skyway_stage_3_rates = [
   # Buenida entry point rates
-  STAGE-THREE-EN
   { origin: 'STAGE-THREE-EN', destination: 'Buendia', toll_fee: 0, vehicle_class: 1 },
   { origin: 'Buendia', destination: 'Quirino', toll_fee: 105, vehicle_class: 1 },
   { origin: 'Buendia', destination: 'Plaza Azul', toll_fee: 264, vehicle_class: 1 },
